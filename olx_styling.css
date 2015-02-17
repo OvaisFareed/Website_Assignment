@@ -9,25 +9,22 @@
 root { 
     display: block;
 }
-
+#title{
+    font-size: 22px;
+}
 .mtable{
     padding-left: 150px;
  }
 
 #myacc{ 
     padding-left: 145px;
+    font-size: 16px;
 }
-#searchPanel{
-    border: 1px solid black;
-}
+
 #searchPanel>td{
     background-color: lightblue;
     border-radius: 10px;
     padding: 10px;
-}
-
-#mainHeading{
- font-size: 20px;    
 }
 
 input{
@@ -66,12 +63,15 @@ a{
     text-decoration: none;
     text-align: center;
 }
-#adv{
-    color: orange;
-}
+
 a:hover{
     color: orange;
 }
+
+#adv{
+    color: orange;
+}
+
 #submit_btn{
   width: 95px;
   height: 40px;
@@ -79,5 +79,72 @@ a:hover{
 }
 
 #jobs{
+    text-align: center;
+}
+
+/* ================== Single product Page Styling =================== */
+
+#back_next{
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-size: 80%;
+}
+#back{
+    padding-left: 5px;
+}
+#next{
+    padding-left: 100px;
+}
+#links{
+    padding-left: 80px;
+}
+#mainHeading{
+    font-weight: bold; 
+    font-size: 22px;
+}
+
+#num{
+    font-size: 18px;
+}
+#sendMsg{
+    width: 214px;
+    height: 41px;
+}
+#msgBox{
+    width: 218px;
+    height: 118px;
+}
+#submitAd{
+    padding-left: 10px;
+}
+#display,#contact, #info, #tips{
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+#user, #sms, #num, #tips>p{
+    background-color: lightblue;
+    padding: 5px;
+}
+#price{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-top-left-radius: 350px;
+    border-bottom-left-radius: 350px;
+    padding: 20px;
+}
+
+#arrow, #samsung{
+    padding-left: 80px;
+}
+
+#info, #display{
+    padding: 5px;
+}
+#know{
+    text-align: right;
+}
+#row4{
     text-align: center;
 }
