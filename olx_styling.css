@@ -69,7 +69,9 @@ a{
 #adv{
     color: orange;
 }
-
+a:hover{
+    color: orange;
+}
 #submit_btn{
   width: 95px;
   height: 40px;
