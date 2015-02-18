@@ -11,9 +11,10 @@ root {
 }
 #title{
     font-size: 22px;
+    color: black;
 }
 .mtable{
-    padding-left: 150px;
+    margin-left: 150px;
  }
 
 #myacc{ 
@@ -93,10 +94,10 @@ a:hover{
     padding-left: 5px;
 }
 #next{
-    padding-left: 100px;
+    padding-left: 70px;
 }
 #links{
-    padding-left: 80px;
+    padding-left: 50px;
 }
 #mainHeading{
     font-weight: bold; 
@@ -130,6 +131,7 @@ a:hover{
     font-weight: bold;
     text-align: center;
     background-color: lightgoldenrodyellow;
+    width: 200px;
     border-top-left-radius: 350px;
     border-bottom-left-radius: 350px;
     padding: 20px;
@@ -147,4 +149,36 @@ a:hover{
 }
 #row4{
     text-align: center;
+}
+
+/* ================== Product List Page Styling =================== */
+ul{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    background: gainsboro;
+}
+
+#categories{
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+li{
+   padding-bottom: 10px; 
+}
+#all{
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    padding: 10px;
+}
+#pak{
+    font-size: 18px;
+}
+#city,#pak{
+    padding-left: 10px;
+}
+
+#mob,#tab,#access{
+    padding-right: 80px;
 }
